@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8D0227B-015E-4A77-8B34-56EDAE557718}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SpaceQuiz</RootNamespace>
+    <AssemblyName>SpaceQuiz</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Gregg\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>611985588105FE38204057B24084B9812EC415BB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SpaceQuiz_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_Congratulations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Congratulations.Designer.cs">
+      <DependentUpon>frm_Congratulations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EasyLevelThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EasyLevelThree.Designer.cs">
+      <DependentUpon>frm_EasyLevelThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EasyLevelOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EasyLevelOne.Designer.cs">
+      <DependentUpon>frm_EasyLevelOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EasyLevelTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EasyLevelTwo.Designer.cs">
+      <DependentUpon>frm_EasyLevelTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HardLevelOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HardLevelOne.Designer.cs">
+      <DependentUpon>frm_HardLevelOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HardLevelThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HardLevelThree.Designer.cs">
+      <DependentUpon>frm_HardLevelThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HardLevelTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HardLevelTwo.Designer.cs">
+      <DependentUpon>frm_HardLevelTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_helpScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_helpScreen.Designer.cs">
+      <DependentUpon>frm_helpScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_HighScores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HighScores.Designer.cs">
+      <DependentUpon>frm_HighScores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_LogOn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_LogOn.Designer.cs">
+      <DependentUpon>frm_LogOn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MainMenu.Designer.cs">
+      <DependentUpon>frm_MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MediumLevelOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MediumLevelOne.Designer.cs">
+      <DependentUpon>frm_MediumLevelOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MediumLevelThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MediumLevelThree.Designer.cs">
+      <DependentUpon>frm_MediumLevelThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MediumLevelTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MediumLevelTwo.Designer.cs">
+      <DependentUpon>frm_MediumLevelTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SplashScreen.Designer.cs">
+      <DependentUpon>frm_SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerCollection.cs" />
+    <Compile Include="PlayerInformation.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_Congratulations.resx">
+      <DependentUpon>frm_Congratulations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EasyLevelThree.resx">
+      <DependentUpon>frm_EasyLevelThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EasyLevelOne.resx">
+      <DependentUpon>frm_EasyLevelOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EasyLevelTwo.resx">
+      <DependentUpon>frm_EasyLevelTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HardLevelOne.resx">
+      <DependentUpon>frm_HardLevelOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HardLevelThree.resx">
+      <DependentUpon>frm_HardLevelThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HardLevelTwo.resx">
+      <DependentUpon>frm_HardLevelTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_helpScreen.resx">
+      <DependentUpon>frm_helpScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HighScores.resx">
+      <DependentUpon>frm_HighScores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LogOn.resx">
+      <DependentUpon>frm_LogOn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MainMenu.resx">
+      <DependentUpon>frm_MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MediumLevelOne.resx">
+      <DependentUpon>frm_MediumLevelOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MediumLevelThree.resx">
+      <DependentUpon>frm_MediumLevelThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MediumLevelTwo.resx">
+      <DependentUpon>frm_MediumLevelTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SplashScreen.resx">
+      <DependentUpon>frm_SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Resources\HUMBLLE ROUGHT CAPS.TTF" />
+    <None Include="SpaceQuiz_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\ButtonEasy.png" />
+    <None Include="Resources\LightMedium.png" />
+    <None Include="Resources\LightHard.png" />
+    <None Include="Resources\LightEasy.png" />
+    <None Include="Resources\ButtonMediumDark.png" />
+    <None Include="Resources\ButtonMedium.png" />
+    <None Include="Resources\ButtonHardDark.png" />
+    <None Include="Resources\ButtonHard.png" />
+    <None Include="Resources\ButtonEasyDark.png" />
+    <None Include="Resources\ButtonEasy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
